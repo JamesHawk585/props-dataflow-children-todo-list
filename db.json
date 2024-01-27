@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "title": "Plan Lecture",
+      "description": "Make slides, etc",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 2,
+      "title": "Grade projects",
+      "description": "Give everyone 40 points",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 3,
+      "title": "Write a Story",
+      "description": "Create interesting characters and plot",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 4,
+      "title": "Practice Piano",
+      "description": "Learn a new song",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 5,
+      "title": "Clean Room",
+      "description": "Put toys in the right place",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 6,
+      "title": "Bake Cookies",
+      "description": "Mix ingredients and bake in the oven",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 95,
+      "title": "Build a LEGO Tower",
+      "description": "Stack colorful bricks to create a tall tower",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 96,
+      "title": "Plant a Garden",
+      "description": "Dig soil, sow seeds, and water the plants",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 97,
+      "title": "Make Paper Airplanes",
+      "description": "Fold paper into different airplane shapes",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 98,
+      "title": "Create a Treasure Map",
+      "description": "Draw a map with hidden treasures",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 99,
+      "title": "Build a Sandcastle",
+      "description": "Use buckets and shovels to build a castle at the beach",
+      "isDone": false,
+      "isVisible": true
+    },
+    {
+      "id": 100,
+      "title": "Learn a Magic Trick",
+      "description": "Practice and perform a cool magic trick",
+      "isDone": false,
+      "isVisible": true
+    }
+]
