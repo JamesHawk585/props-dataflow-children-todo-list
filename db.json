@@ -1,5 +1,5 @@
 {
- "toDoItems": [
+ "arrayOfTasks": [
     {
       "id": 1,
       "title": "Plan Lecture",
