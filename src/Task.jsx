@@ -1,17 +1,18 @@
-import Card from "./Card/Card"
-import CardBody from "./Card/CardBody"
+import Card from "./Card/Card";
+import CardBody from "./Card/CardBody";
 
-export default function Task({task, onDeleteTask}) {
+// React components can only return on element. Frangments are a way around that limitation.
 
-  // I just want title and description
-
+function Task({ task }) {
+  console.log(task)
+  const {title} = task
   return (
-    <Card title={task.title}>
+    <Card title={title}>
       <CardBody>
-       <p>{task.description}</p>
-      <button className="button button--warning" onClick={() => onDeleteTask(task.id)}>🗑 Remove</button>
+        <p>{task.description}</p>
       </CardBody>
-     
     </Card>
-  )
+  );
 }
+
+export default Task;

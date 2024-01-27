@@ -1,9 +1,12 @@
-import "./Card.css"
-import CardHeader from "./CardHeader"
+import "./Card.css";
+import CardHeader from "./CardHeader";
+import CardBody from "./CardBody";
 
-export default function Card({title, children}) {
-  return (<section className="card">
-    <CardHeader title={title}/>
-    {children}
-    </section>)
+export default function Card({ task, children }) {
+  return (
+    <section className="card">
+      <CardHeader title={task.title} />
+      <CardBody children={children}/>
+    </section>
+  );
 }
