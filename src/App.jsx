@@ -1,10 +1,14 @@
 import './App.css'
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import arrayOfTasks from "./Data.js"
 import Task from "./Task"
 
 export default function App() {
   const [tasks, setTasks] = useState(arrayOfTasks)
+
+  useEffect(() => {
+    fetch()
+  })
 
   const onDeleteTask = (taskId) => {setTasks(tasks.filter(task => task.id !== taskId))}
 
