@@ -12,14 +12,11 @@ export default function App() {
       .then(setTasks);
   }, []);
 
-  // console.log("tasks in App.jsx: ", tasks);
+  // console.log(tasks)
 
   const taskElements = tasks.map((task) => {
     return <Task key={task.id} task={task} />;
   });
-
-  // console.log("taskElements:", taskElements);
-
 
   return (
     <main>
