@@ -2,8 +2,9 @@ import "./Card.css";
 import CardHeader from "./CardHeader";
 import CardBody from "./CardBody";
 
+// 1:05:41
+
 export default function Card({ title, children }) {
-  console.log('in Card.jsx: ', title)
 
   return (
     <section className="card">
