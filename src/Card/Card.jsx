@@ -5,7 +5,7 @@ import CardBody from "./CardBody";
 export default function Card({ task, children }) {
   return (
     <section className="card">
-      <CardHeader title={task.title} />
+      <CardHeader title={task} />
       <CardBody children={children}/>
     </section>
   );
