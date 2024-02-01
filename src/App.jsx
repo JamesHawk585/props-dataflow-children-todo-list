@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import React, { useEffect, useState } from "react";
 import Task from "./Task";
 import Card from "./Card/Card.jsx";

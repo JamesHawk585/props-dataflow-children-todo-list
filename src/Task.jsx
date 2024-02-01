@@ -1,5 +1,7 @@
 import Card from "./Card/Card";
 import CardBody from "./Card/CardBody";
+import './App.css'
+import './Card/Card.css'
 
 // React components can only return one element. Frangments are a way around that limitation.
 
@@ -8,16 +10,12 @@ function Task({ task }) {
 
 
   return (
-    // <Card title={title}>
-    //   <CardBody>
-    //     <p>{task.description}</p>
-    //   </CardBody>
-    // </Card>
-  <section className="card">
-    <h2>{task.title}</h2>
-    <p>{task.description}</p>
-  </section>
-  
+    <Card title={title}>
+      <CardBody>
+        <p>{task.description}</p>
+        <button className='button--warning'>Remove🗑️</button>
+      </CardBody>
+    </Card>
     );
 }
 
