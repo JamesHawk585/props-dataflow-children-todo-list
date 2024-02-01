@@ -12,10 +12,11 @@ export default function App() {
       .then(setTasks);
   }, []);
 
-  // console.log(tasks)
+  const onDeleteTask = (taskId) => {setTasks(tasks.filter(task => task.id !== taskId))}
+  
 
   const taskElements = tasks.map((task) => {
-    return <Task key={task.id} task={task} />;
+    return <Task key={task.id} task={task} onDeleteTask={onDeleteTask} />;
   });
 
   return (
